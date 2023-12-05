@@ -19,3 +19,12 @@ var firstName = "Lasith"
 firstNameLength = firstName.length
 console.log(firstNameLength)
 
+console.log(firstName[0])
+function word(Noun, Verb, Adjective) {
+    var result = "";
+    result += Noun + Verb + Adjective;
+    return result;
+}
+
+console.log(word("I", "eat", "rice"));
+

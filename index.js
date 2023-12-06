@@ -26,8 +26,31 @@ function word(Noun, Verb, Adjective) {
 }
 
 console.log(word("I", "eat", "rice"));
-*/
+
 
 var Arr = [["John", 23],["Lasith",24]]
 
 console.log(Arr[1][0])
+
+var Arr = [1,2,3]
+Arr.push(4)
+console.log(Arr)
+
+Arr.pop()
+Arr.pop()
+console.log(Arr)
+
+Arr[0] = 4
+
+console.log(Arr)
+*/
+
+var arr = [1,2,3,4,5,6]
+
+console.log(arr.shift())
+
+console.log(arr)
+
+arr.unshift(10)
+
+console.log(arr)

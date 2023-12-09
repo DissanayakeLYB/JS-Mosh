@@ -47,10 +47,10 @@ console.log(Arr)
 
 var arr = [1,2,3,4,5,6]
 
-console.log(arr.shift())
-
 console.log(arr)
 
+b = arr.shift()
+arr.pop()
 arr.unshift(10)
-
+console.log(b)
 console.log(arr)

@@ -65,12 +65,28 @@ function Func(a,b){
 }
 
 Func(10,4)
-*/
 
 var myGlobal = 10
 
 function fun(){
-    return oopsGlobal = 5;
+    oopsGlobal = 5;
 }
 
 console.log(fun())
+
+function fun2(){
+
+    var output = " "
+
+    if(typeof myGlobal != "undefined" ){
+        output += "myGlobal : " + myGlobal; 
+    }
+    
+    else if(typeof oopsGlobal != "undefined"){
+        output += "oopsGlobal : " + oopsGlobal; 
+    }
+    
+    console.log(output)
+}
+*/
+

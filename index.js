@@ -59,5 +59,11 @@ function ourFunc(){
 }
 
 ourFunc();
+
+function Func(a,b){
+    console.log(a-b)
+}
+
+Func(10,4)
 */
 

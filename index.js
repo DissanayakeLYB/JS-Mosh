@@ -43,7 +43,6 @@ console.log(Arr)
 Arr[0] = 4
 
 console.log(Arr)
-*/
 
 var arr = [1,2,3,4,5,6]
 
@@ -54,3 +53,11 @@ arr.pop()
 arr.unshift(10)
 console.log(b)
 console.log(arr)
+
+function ourFunc(){
+    console.log("Hi World!");
+}
+
+ourFunc();
+*/
+

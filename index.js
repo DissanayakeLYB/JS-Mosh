@@ -67,3 +67,10 @@ function Func(a,b){
 Func(10,4)
 */
 
+var myGlobal = 10
+
+function fun(){
+    return oopsGlobal = 5;
+}
+
+console.log(fun())

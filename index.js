@@ -101,4 +101,16 @@ function NextInLine(arr){
 }
 
 NextInLine([1,2,3,4,5])
+
+function ToF(ToF){
+    if (ToF == true){
+        console.log("It's True.")
+    }
+    else{
+        console.log("It's False")
+    }
+}
+
+ToF( false)
+
 */

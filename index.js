@@ -94,10 +94,11 @@ arr = [1,2,3,4]
 arr.shift()
 
 console.log(arr)
-*/
+
 
 function NextInLine(arr){
     console.log(arr.shift()) 
 }
 
 NextInLine([1,2,3,4,5])
+*/

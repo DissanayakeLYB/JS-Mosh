@@ -121,7 +121,7 @@ function hrida(hri){
 kello = hrida(true)
 
 console.log(kello)
-*/
+
 
 function vidu(vidu_hri,lasith_hri){
     if (vidu_hri == true && lasith_hri == true){
@@ -138,4 +138,6 @@ function vidu(vidu_hri,lasith_hri){
     }
 }
 
-vidu(true,true)
+vidu(false,true)
+
+*/

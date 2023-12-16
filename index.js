@@ -113,5 +113,29 @@ function ToF(ToF){
 
 ToF( false)
 
+
+function hrida(hri){
+    return true
+}
+
+kello = hrida(true)
+
+console.log(kello)
 */
 
+function vidu(vidu_hri,lasith_hri){
+    if (vidu_hri == true && lasith_hri == true){
+        console.log("Vidu Hri")
+    }
+    else if (vidu_hri == true && lasith_hri == false){
+        console.log("Vidu Hri")
+    }
+    else if (vidu_hri == false && lasith_hri == false){
+        console.log("lasith weradi")
+    }
+    else if (vidu_hri == false && lasith_hri == true){
+        console.log("Mn tharahai")
+    }
+}
+
+vidu(true,true)

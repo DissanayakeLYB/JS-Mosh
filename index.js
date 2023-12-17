@@ -141,3 +141,18 @@ function vidu(vidu_hri,lasith_hri){
 vidu(false,true)
 
 */
+
+
+function thisne(trueDA,falseDa){
+    if(trueDA && falseDa){
+        console.log("Confused Unga Bunga")
+    }
+    else if(trueDA){
+        console.log("Sira")
+    }
+    else if(falseDa){
+        console.log("Boru ne")
+    }
+}
+
+thisne(true,false)

@@ -153,6 +153,9 @@ function thisne(trueDA,falseDa){
     else if(falseDa){
         console.log("Boru ne")
     }
+    else{
+        console.log("ane mnda")
+    }
 }
 
-thisne(false,true)
+thisne(false,false)

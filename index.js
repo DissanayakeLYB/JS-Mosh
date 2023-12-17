@@ -155,4 +155,4 @@ function thisne(trueDA,falseDa){
     }
 }
 
-thisne(true,false)
+thisne(false,true)

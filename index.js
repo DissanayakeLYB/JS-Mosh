@@ -140,7 +140,6 @@ function vidu(vidu_hri,lasith_hri){
 
 vidu(false,true)
 
-*/
 
 
 function thisne(trueDA,falseDa){
@@ -159,3 +158,4 @@ function thisne(trueDA,falseDa){
 }
 
 thisne(false,false)
+*/

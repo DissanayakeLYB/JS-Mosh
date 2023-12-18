@@ -160,7 +160,7 @@ function thisne(trueDA,falseDa){
 thisne(false,false)
 */
 
-switch(1){
+switch(5){
     case 1:
         console.log("alpha")
         break
@@ -171,5 +171,9 @@ switch(1){
 
     case 3:
         console.log("gamma")
+        break
+        
+    default:
+        console.log("greek")
         break
 }

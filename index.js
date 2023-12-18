@@ -192,7 +192,6 @@ switch (234){
     default:
         console.log("Numbers")
 }
-*/
 
 
 function isLess(a,b){
@@ -200,3 +199,18 @@ function isLess(a,b){
 }
 
 console.log(isLess(1,2))
+
+
+
+//objects
+var ourDog = {
+    "name" : "girly",
+    "legs" : 4,
+    "tails" : 1,
+    "friends" :["everything!"]
+}
+
+console.log(ourDog.name)
+console.log(ourDog["name"])
+
+*/

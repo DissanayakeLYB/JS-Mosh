@@ -159,3 +159,17 @@ function thisne(trueDA,falseDa){
 
 thisne(false,false)
 */
+
+switch(1){
+    case 1:
+        console.log("alpha")
+        break
+    
+    case 2:
+        console.log("beta")
+        break
+
+    case 3:
+        console.log("gamma")
+        break
+}

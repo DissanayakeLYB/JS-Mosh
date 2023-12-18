@@ -158,7 +158,7 @@ function thisne(trueDA,falseDa){
 }
 
 thisne(false,false)
-*/
+
 
 switch(5){
     case 1:
@@ -176,4 +176,21 @@ switch(5){
     default:
         console.log("greek")
         break
+}
+*/
+
+
+switch (234){
+    case 1:
+    case 2:
+    case 3:
+        console.log(123)
+
+    case 4:
+    case 5:
+    case 6:
+        console.log(456)
+
+    default:
+        console.log("Numbers")
 }

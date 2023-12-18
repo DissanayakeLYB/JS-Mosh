@@ -177,8 +177,6 @@ switch(5){
         console.log("greek")
         break
 }
-*/
-
 
 switch (234){
     case 1:
@@ -194,3 +192,11 @@ switch (234){
     default:
         console.log("Numbers")
 }
+*/
+
+
+function isLess(a,b){
+    return a<b
+}
+
+console.log(isLess(1,2))

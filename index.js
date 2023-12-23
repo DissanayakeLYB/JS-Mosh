@@ -222,3 +222,20 @@ var Lasith = {
 }
 
 console.log(Lasith.name)
+
+num = 0
+
+switch (num){
+
+    case 1:
+        console.log("ekaaai")
+        break
+    
+    case 2:
+        console.log("dekaaai")
+        break
+
+    default:
+        console.log("godaaaai")
+        break
+}

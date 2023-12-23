@@ -214,3 +214,11 @@ console.log(ourDog.name)
 console.log(ourDog["name"])
 
 */
+
+var Lasith = {
+    "name" : "Lasith",
+    "Age" : 24,
+    "Uni" : "UOM"
+}
+
+console.log(Lasith.name)

@@ -213,7 +213,7 @@ var ourDog = {
 console.log(ourDog.name)
 console.log(ourDog["name"])
 
-*/
+
 
 var Lasith = {
     "name" : "Lasith",
@@ -239,3 +239,6 @@ switch (num){
         console.log("godaaaai")
         break
 }
+
+
+*/

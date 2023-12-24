@@ -18,10 +18,20 @@ def password_gen(i,j):
         random_value2 = random.choice(numArr)
         password += random_value2
 
-    return password
 
 
-print(password_gen(12,30))
+    char_list = list(password)
+
+    # Shuffle the list
+    random.shuffle(char_list)
+
+    # Convert the list back to a string
+    randomized_password = ''.join(char_list)
+
+    return randomized_password
+
+
+print(password_gen(8,3))
 
 
     

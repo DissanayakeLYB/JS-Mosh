@@ -1,6 +1,8 @@
-
 import random
-def password_gen():
+
+#i = number of letters in the password
+#j = number of numbers in the password
+def password_gen(i,j):
 
     password = ""
 
@@ -8,18 +10,18 @@ def password_gen():
 
     numArr = ["0","1","2","3","4","5","6","7","8","9"]
 
-    for x in range(4):
+    for x in range(i):
         random_value1 = random.choice(letterArr)
         password += random_value1
     
-    for y in range(4):
+    for y in range(j):
         random_value2 = random.choice(numArr)
         password += random_value2
 
     return password
 
 
-print(password_gen())
+print(password_gen(12,30))
 
 
     
